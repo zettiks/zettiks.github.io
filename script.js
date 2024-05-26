@@ -1,6 +1,6 @@
 const terminalOutput = document.getElementById('output');
 const inputField = document.getElementById('input');
-const commands = ['about', 'contact', 'help', 'clear', 'whoami', 'gui', 'themes', '1488', 'github-repo'];
+const commands = ['about', 'contact', 'help', 'clear', 'whoami', 'gui', 'themes', '1488t', 'github-repo'];
 let commandHistory = [];
 let historyIndex = -1;
 
@@ -32,7 +32,7 @@ function handleInput(event) {
                 case 'themes':
                     showThemes();
                     break;
-                case '1488'
+                case '1488t'
                     showOutput('Я ЛЮБЛЮ КРИСТИНКУУУ<33')
                     break;
                 default:
