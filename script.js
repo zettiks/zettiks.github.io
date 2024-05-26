@@ -33,7 +33,7 @@ function handleInput(event) {
                     showThemes();
                     break;
                 case 'time':
-                    showOutput('1488 Я ЛЮБЛЮ КРИИС<333')
+                    showOutput('улечка давай встречатся?')
                     break;
                 case '1488':
                     showOutput('улька^^🤍')
