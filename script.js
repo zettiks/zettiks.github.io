@@ -35,6 +35,9 @@ function handleInput(event) {
                 case 'time':
                     showOutput('1488 Я ЛЮБЛЮ КРИИС<333')
                     break;
+                case '1488':
+                    showOutput('улька^^')
+                    break;
                 default:
                     if (userInput.startsWith('theme set')) {
                         setTheme(userInput.substring('theme set'.length).trim());
