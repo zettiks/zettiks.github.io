@@ -36,7 +36,7 @@ function handleInput(event) {
                     showOutput('1488 Я ЛЮБЛЮ КРИИС<333')
                     break;
                 case '1488':
-                    showOutput('улька^^')
+                    showOutput('улька^^🤍')
                     break;
                 default:
                     if (userInput.startsWith('theme set')) {
