@@ -34,6 +34,7 @@ function handleInput(event) {
                     break;
                 case '1488'
                     showOutput('Я ЛЮБЛЮ КРИСТИНКУУУ<33')
+                    break;
                 default:
                     if (userInput.startsWith('theme set')) {
                         setTheme(userInput.substring('theme set'.length).trim());
