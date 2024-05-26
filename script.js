@@ -1,6 +1,6 @@
 const terminalOutput = document.getElementById('output');
 const inputField = document.getElementById('input');
-const commands = ['about', 'contact', 'help', 'clear', 'whoami', 'gui', 'themes', 'time', 'github-repo'];
+const commands = ['about', 'contact', 'help', 'clear', 'whoami', 'gui', 'themes', '1488', 'github-repo'];
 let commandHistory = [];
 let historyIndex = -1;
 
