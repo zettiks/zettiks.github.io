@@ -1,0 +1,186 @@
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('https://download.jetbrains.com/fonts/JetBrainsMono-2.225.zip') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+    font-family: 'JetBrains Mono', monospace;
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    justify-content: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#terminal {
+    width: 95%;
+    padding-left: 10px;
+}
+
+@keyframes text-gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+pre {
+  background: linear-gradient(90deg, orange, rgb(22, 21, 14), orange);
+  background-size: 200% auto;
+  animation: text-gradient-animation 5s linear infinite;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+
+#output {
+    margin-bottom: 12px;
+    margin-top: 5px;
+}
+
+label {
+    color: rgb(0, 255, 242);
+    font-weight: 700;
+
+}
+
+input {
+    width: auto;
+    border: none;
+    background-color:transparent;
+    color: #ffffff;
+    outline: none;
+    caret-color: rgb(53, 255, 12);
+}
+
+.about {
+    border-style: ridge;
+    border-color: rgb(153, 255, 0);
+    border-width: thin;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: #eeff00;
+    font-weight: 800;
+}
+
+body.theme-light {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+body.theme-dark {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+body.theme-ubuntu {
+    background-color: #2D0922;
+    color: #ffffff;
+}
+
+body.theme-powershell {
+    background-color: #012456;
+    color: #ffffff;
+}
+
+.command {
+    font-family: 'JetBrains Mono', monospace;
+    color: rgb(153, 255, 0);
+    animation: Color 4s linear infinite;
+}
+
+.command2 {
+    font-family: 'JetBrains Mono', monospace;
+    animation: Color 4s linear infinite;
+    -webkit-animation: Color 4s ease-in-out infinite;
+}
+
+@keyframes Color {
+    0% {
+        color: #ee9024;
+    }
+
+    20% {
+        color: #000000;
+    }
+
+    40% {
+        color: #ee9024;
+    }
+
+    60% {
+        color: #000000;
+    }
+
+    80% {
+        color: #ee9024;
+    }
+
+    100% {
+        color: #000000;
+    }
+}
+
+@-moz-keyframes Color {
+    0% {
+        color: #ee9024;
+    }
+
+    20% {
+        color: #000000;
+    }
+
+    40% {
+        color: #ee9024;
+    }
+
+    60% {
+        color: #000000;
+    }
+
+    80% {
+        color: #ee9024;
+    }
+
+    100% {
+        color: #000000;
+    }
+}
+
+@-webkit-keyframes Color {
+    0% {
+        color: #ee9024;
+    }
+
+    20% {
+        color: #000000;
+    }
+
+    40% {
+        color: #ee9024;
+    }
+
+    60% {
+        color: #000000;
+    }
+
+    80% {
+        color: #ee9024;
+    }
+
+    100% {
+        color: #000000;
+    }
+}
