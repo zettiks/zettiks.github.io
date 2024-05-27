@@ -32,7 +32,7 @@ body {
 }
 
 pre {
-  background: linear-gradient(90deg, orange, rgb(22, 21, 14), orange);
+  background: linear-gradient(90deg, purple, rgb(22, 21, 14), purple);
   background-size: 200% auto;
   animation: text-gradient-animation 5s linear infinite;
   -webkit-background-clip: text;
