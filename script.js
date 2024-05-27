@@ -33,11 +33,7 @@ function handleInput(event) {
                     showThemes();
                     break;
                 case 'time':
-                    showOutput('улечка давай встречатся?')
-                    break;
-                case '1488':
-                    showOutput('улька^^🤍')
-                    break;
+                    showOutput('приветик хидакитим^^')
                 default:
                     if (userInput.startsWith('theme set')) {
                         setTheme(userInput.substring('theme set'.length).trim());
